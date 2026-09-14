@@ -1,0 +1,9 @@
+{
+  "_comment": "Google Drive file IDs for the files publish.py writes to PUBLISH_DIR. Right-click each file in Drive > Share > copy link; the ID is the long token between /d/ and /view. Replace every PASTE_ID value. publish_manifest is optional but gives the app its 'data as of' stamp.",
+  "cash_lines": "PASTE_ID",
+  "cash_bank": "PASTE_ID",
+  "cash_explanations": "PASTE_ID",
+  "cash_manifest": "PASTE_ID",
+  "cash_coverage": "PASTE_ID",
+  "publish_manifest": "PASTE_ID"
+}

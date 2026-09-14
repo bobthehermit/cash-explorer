@@ -1,0 +1,10 @@
+[theme]
+# NMPED brand palette (institutional-clarity pass) -- identical to the other SBB apps
+primaryColor = "#245d62"              # Teal -- widget accents: sliders, checkboxes, focus rings
+backgroundColor = "#ffffff"
+secondaryBackgroundColor = "#f4f3ef"  # whisper of brand warmth
+textColor = "#1a1a1a"
+font = "sans serif"
+
+[browser]
+gatherUsageStats = false

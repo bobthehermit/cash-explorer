@@ -1,0 +1,11 @@
+# local data -- never commit parquet
+sample_data/cash_data/
+*.parquet
+.streamlit/secrets.toml
+
+# python
+__pycache__/
+*.pyc
+venv/
+.venv/
+.DS_Store
