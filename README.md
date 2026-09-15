@@ -3,8 +3,8 @@ title: SBB Cash Explorer
 emoji: 🏦
 colorFrom: green
 colorTo: gray
-sdk: streamlit
-app_file: app.py
+sdk: docker
+app_port: 8501
 pinned: false
 ---
 
@@ -61,7 +61,9 @@ git remote add hf https://huggingface.co/spaces/<user>/<space>
 git push origin main && git push hf main
 ```
 
-Nothing else is needed for a Drive-backed deployment -- no secrets, the IDs
+The Space uses the Docker SDK (HF retired the built-in Streamlit SDK in 2025);
+`Dockerfile` installs `requirements.txt` and runs `streamlit run app.py` on
+port 8501. Nothing else is needed for a Drive-backed deployment -- no secrets, the IDs
 in `gdrive_manifest.json` are all the app needs. To point a deployment at a
 different source, set `CASH_DATA_SOURCE` / `CASH_DATA_DIR` as Space variables.
 
