@@ -21,6 +21,13 @@ MUTED = "#8a8a82"
 ROOT = Path(__file__).resolve().parent.parent
 LOGO_PATH = ROOT / "assets" / "nmped_logo.jpg"
 LOGO_LINK = "https://web.ped.nm.gov/bureaus/school-budget-bureau/"
+DISCLAIMER = (
+        "This tool was built by Lorenzo Dominguez, pulling from official NMPED "
+        "data sources — it isn't an official department publication itself, and "
+        "hasn't been exhaustively tested. If something looks off, verify against "
+        "source records and let me know: "
+        "[lorenzo.dominguez@ped.nm.gov](mailto:lorenzo.dominguez@ped.nm.gov)."
+        )
 
 CSS = """
 <style>
@@ -119,6 +126,7 @@ def sidebar_logo():
 
 def footer():
     st.markdown("---")
+    st.info(DISCLAIMER)
     st.caption("New Mexico Public Education Department · School Budget Bureau")
 
 
