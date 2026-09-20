@@ -53,20 +53,18 @@ using a download.
 
 ## Deploy
 
-GitHub is `origin`; the Hugging Face Space is a second remote. Push both so
-they stay identical:
+Deployed on [Streamlit Community Cloud](https://share.streamlit.io), pointed at
+this repo's `main` branch with `app.py` as the entry point. Pushing to GitHub
+redeploys automatically:
 
 ```bash
-git remote add hf https://huggingface.co/spaces/<user>/<space>
-git push origin main && git push hf main
+git push origin main
 ```
 
-The Space uses the Docker SDK (HF retired the built-in Streamlit SDK in 2025);
-`Dockerfile` installs `requirements.txt` and runs `streamlit run app.py` on
-port 8501. Nothing else is needed for a Drive-backed deployment -- no secrets, the IDs
-in `gdrive_manifest.json` are all the app needs. To point a deployment at a
-different source, set `CASH_DATA_SOURCE` / `CASH_DATA_DIR` as Space variables.
-
+No secrets needed — the IDs in `gdrive_manifest.json` are all the app requires,
+and the files are shared as "Anyone with the link." To point a deployment at a
+different source, set `CASH_DATA_SOURCE` / `CASH_DATA_DIR` in the app's
+Settings → Secrets.
 ## Layout
 
 ```
