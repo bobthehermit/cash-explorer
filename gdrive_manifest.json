@@ -1,10 +1,10 @@
 {
-  "_comment": "Google Drive file IDs for the files publish.py writes to PUBLISH_DIR (Documents/Python/cash_reports/publish). publish.py overwrites in place so these stay stable; if a file is ever deleted and re-created in Drive, update its ID here. Share > Anyone with the link on each file.",
-  "cash_lines": "1DyeXH-2siVg7tJItziZyIz3T-22L2fP7",
-  "cash_bank": "1ToV320kEr0z9syNDtTmTTO8FoCw5FSgu",
-  "cash_explanations": "1elT-H56FEDEH6E5VBr6Ruj0FSeEmfM3N",
-  "cash_manifest": "1rQgfw9HgX7PNHGFgaZUaWFst7Z3JM_2J",
-  "cash_coverage": "1r7HjYDRR3b9nNpzlPQsAq3EQyhaMu7vD",
-  "crawl_manifest": "1Oj7WjJBsI374xut2_A4jdTQzIbgcyV9n",
-  "publish_manifest": "1KOm0dXsnwJsA34W_vtQA8PlzTREs-psb"
+  "_comment": "Google Drive file IDs for the files publish.py writes to PUBLISH_DIR (G:\\My Drive\\cash_reports\\publish). publish.py overwrites in place so these stay stable; if a file is ever deleted and re-created in Drive, update its ID here. Share > Anyone with the link on each file.",
+  "cash_lines": "15IddIMUL0rtxet-iLvAl4nKx16Xznf-H",
+  "cash_bank": "1YAhfWDMVQnceNnbJAXJ5j3w8CXpkNRCW",
+  "cash_explanations": "1h6bmSe7PcB_LSEHAFsk0G36gbPBXTBs3",
+  "cash_manifest": "1m_LU7Tcivxp85T1ksqvZ2qm6OdqNZp_V",
+  "cash_coverage": "1m7JGe3jVRp4JVn5j1U92sOcw8XpNfMoH",
+  "crawl_manifest": "1Y46fh7EwHpw1x_Th0MfM0zuubDxBVGEe",
+  "publish_manifest": "1B1D9x36NMPcTq6aHeX-iw2wXHf3UYd6R"
 }
